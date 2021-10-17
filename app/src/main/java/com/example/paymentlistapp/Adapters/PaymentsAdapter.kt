@@ -26,7 +26,10 @@ class PaymentsAdapter(private val paymentsList: List<Response>):
     override fun onBindViewHolder(holder: PaymentsViewHolder, position: Int) {
         val payment = paymentsList[position]
 
-
+        holder.itemView.apply {
+            // amount не находится
+            // amount = payment.amount
+        }
     }
 
     override fun getItemCount(): Int {
