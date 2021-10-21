@@ -11,7 +11,10 @@ class GetRetrofitInstance {
                 .baseUrl(Constants.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
-                .create(PaymentApi::class.java)
+        }
+
+        val api by lazy {
+            retrofit.create(PaymentApi::class.java)
         }
     }
 }

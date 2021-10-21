@@ -14,21 +14,18 @@ class PaymentsAdapter(private val paymentsList: List<Response>):
     inner class PaymentsViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PaymentsViewHolder {
-        return PaymentsViewHolder(
-            LayoutInflater.from(parent.context).inflate(
-                R.layout.payment_card,
-                parent,
-                false
-            )
-        )
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.payment_card, parent, false)
+        return PaymentsViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: PaymentsViewHolder, position: Int) {
         val payment = paymentsList[position]
 
         holder.itemView.apply {
-            // amount не находится
-            // amount = payment.amount
+            amount.text = payment.amount.toString()
+            currency.text = payment.currency
+            created.text = payment.created.toString()
+            description.text = payment.desc
         }
     }
 

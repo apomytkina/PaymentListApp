@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/PaymentListApp/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PaymentListApp/app/src/main/res/layout/fragment_login.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/PaymentListApp/app/src/main/res/layout/fragment_payments.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PaymentListApp/app/src/main/res/layout/fragment_payment.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/PaymentListApp/app/src/main/res/layout/fragment_payments.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/PaymentListApp/app/src/main/res/layout/payment_card.xml" value="0.1796875" />
       </map>
     </option>
