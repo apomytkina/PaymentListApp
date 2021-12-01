@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.paymentlistapp.Repository.PaymentsRepository
 
-class PaymentsViewModelFactory(
+class LoginViewModelFactory(
     private val repository: PaymentsRepository
 ): ViewModelProvider.NewInstanceFactory() {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {

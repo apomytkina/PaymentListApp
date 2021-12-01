@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.paymentlistapp.Model.AuthResponse
 import com.example.paymentlistapp.Model.Response
 import com.example.paymentlistapp.Repository.PaymentsRepository
 import kotlinx.coroutines.launch
@@ -12,10 +13,6 @@ import kotlinx.coroutines.launch
 class PaymentsViewModel(
     private val repository: PaymentsRepository
 ): ViewModel() {
-    private val _response = MutableLiveData<Boolean>()
-    val response: LiveData<Boolean>
-        get() = _response
-
     private val _payments = MutableLiveData<List<Response>>()
     val payments: LiveData<List<Response>>
         get() = _payments
