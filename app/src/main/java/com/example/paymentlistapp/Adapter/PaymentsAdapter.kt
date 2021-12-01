@@ -1,4 +1,4 @@
-package com.example.paymentlistapp.Adapters
+package com.example.paymentlistapp.Adapter
 
 import android.view.LayoutInflater
 import android.view.View

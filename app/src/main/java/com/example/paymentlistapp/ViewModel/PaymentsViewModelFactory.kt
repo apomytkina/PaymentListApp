@@ -1,4 +1,4 @@
-package com.example.paymentlistapp
+package com.example.paymentlistapp.ViewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

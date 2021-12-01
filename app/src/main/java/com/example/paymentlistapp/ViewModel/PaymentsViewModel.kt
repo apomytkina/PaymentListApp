@@ -1,4 +1,4 @@
-package com.example.paymentlistapp
+package com.example.paymentlistapp.ViewModel
 
 import android.util.Log
 import androidx.lifecycle.LiveData
